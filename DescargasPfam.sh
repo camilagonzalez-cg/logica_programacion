@@ -9,7 +9,7 @@ wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
 gunzip Pfam-A.hmm.gz
 
 #Indexar
-hmmpress Pfam-A.hmm
+# hmmpress Pfam-A.hmm 
 hmmfetch --index Pfam-A.hmm
 
 familias=(
