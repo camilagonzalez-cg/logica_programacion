@@ -10,3 +10,5 @@ Una vez descargas y construidas ambas bases de datos (pfam y uniprot) se debe co
 Luego se construye una base de datos HMM a partir de familias Pfam seleccionadas y posteriormente las secuencias proteicas descargadas desde UniProt son analizadas mediante HMMSCAN para identificar dominios conservados. Los resultados permitieron clasificar las proteínas de acuerdo con la presencia de dominios funcionales.
 
 hmmscan encontró dos proteínas con el dominio Protein kinase (Pkinase, PF00069). Para las demás proteína no se hallaron coincidencias.
+
+<img width="1113" height="291" alt="Captura de pantalla 2026-06-04 125807" src="https://github.com/user-attachments/assets/f18bb38e-8b5b-4a65-9e34-df9f7fd54aaf" />
