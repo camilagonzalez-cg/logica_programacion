@@ -23,7 +23,8 @@ mkdir -p UNIPROT
 for id in "${proteinas[@]}"
 do
     echo "Descargando $id ..."
-    wget -O prueba.fasta "https://rest.uniprot.org/uniprotkb/P04637.fasta"
+    wget -q -O "UNIPROT/${id}.fasta" \
+    "https://rest.uniprot.org/uniprotkb/${id}.fasta"
 done
 
 cat UNIPROT/*.fasta > proteinas_uniprot.fasta

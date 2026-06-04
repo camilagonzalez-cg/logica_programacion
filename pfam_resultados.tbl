@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Pkinase              PF00069.32 sp|P00533|EGFR_HUMAN -            2.3e-41  133.0   0.0   3.5e-41  132.4   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+Pkinase              PF00069.32 sp|P31749|AKT1_HUMAN -            1.7e-82  267.9   0.0   2.2e-82  267.5   0.0   1.2   1   0   0   1   1   1   1 Protein kinase domain
+#
+# Program:         hmmscan
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SCAN
+# Query file:      proteinas_uniprot.fasta
+# Target file:     PFAM_FAMILIAS/familias_pfam.hmm
+# Option settings: hmmscan --tblout pfam_resultados.tbl PFAM_FAMILIAS/familias_pfam.hmm proteinas_uniprot.fasta 
+# Current dir:     /home/camila_gonzalez/repositorios/logica_programacion
+# Date:            Thu Jun  4 12:31:12 2026
+# [ok]
