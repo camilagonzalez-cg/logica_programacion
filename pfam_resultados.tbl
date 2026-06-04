@@ -11,5 +11,5 @@ Pkinase              PF00069.32 sp|P31749|AKT1_HUMAN -            1.7e-82  267.9
 # Target file:     PFAM_FAMILIAS/familias_pfam.hmm
 # Option settings: hmmscan --tblout pfam_resultados.tbl PFAM_FAMILIAS/familias_pfam.hmm proteinas_uniprot.fasta 
 # Current dir:     /home/camila_gonzalez/repositorios/logica_programacion
-# Date:            Thu Jun  4 12:31:12 2026
+# Date:            Thu Jun  4 12:51:04 2026
 # [ok]
